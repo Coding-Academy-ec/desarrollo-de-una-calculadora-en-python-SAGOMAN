@@ -19,7 +19,7 @@ def dividir(a, b):
         resp = a/b
         return resp
     else:
-        return None
+        return "Error: No se puede dividir por cero"
 
 def main():
     num1 = float(input("Ingrese el primer número: "))
