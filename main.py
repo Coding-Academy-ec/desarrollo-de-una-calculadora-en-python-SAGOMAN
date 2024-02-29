@@ -15,11 +15,11 @@ def multiplicar(a, b):
 
 def dividir(a, b):
     # aqui se realiza la division de dos numeros
-    # if b != 0:
+    if b != 0:
         resp = a/b
         return resp
-    # else:
-        # print("No existe division para 0")
+    else:
+        return None
 
 def main():
     num1 = float(input("Ingrese el primer número: "))
